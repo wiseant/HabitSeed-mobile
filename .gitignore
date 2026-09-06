@@ -7,6 +7,13 @@
 .buildlog/
 .history
 
+# IDE：JetBrains 工程配置（本机状态，不入库）
+.idea/
+*.iml
+
+# Flutter 依赖锁文件需入库保证可复现构建
+!pubspec.lock
+
 
 
 # Flutter repo-specific

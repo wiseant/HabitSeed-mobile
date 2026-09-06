@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "achievements": [
+    {
+      "id": "first_bloom",
+      "name": "初次绽放",
+      "description": "成功培育出第一株开花植物",
+      "icon": "spa",
+      "criteria": {
+        "type": "total_harvest",
+        "target": 1
+      }
+    },
+    {
+      "id": "harvest_10",
+      "name": "硕果累累",
+      "description": "累计收获 10 株开花植物",
+      "icon": "eco",
+      "criteria": {
+        "type": "total_harvest",
+        "target": 10
+      }
+    },
+    {
+      "id": "streak_7",
+      "name": "七日不辍",
+      "description": "连续 7 天完成当日全部打卡",
+      "icon": "local_fire_department",
+      "criteria": {
+        "type": "consecutive_days",
+        "target": 7
+      }
+    },
+    {
+      "id": "legendary_tamer",
+      "name": "传说培育师",
+      "description": "将一株传说稀有度的种子培育至开花",
+      "icon": "auto_awesome",
+      "criteria": {
+        "type": "harvest_rarity",
+        "rarity": "legendary",
+        "target": 1
+      }
+    }
+  ]
+}

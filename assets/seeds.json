@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "seeds": [
+    {
+      "id": "herb_basil",
+      "name": "小薄荷",
+      "category": "herb",
+      "rarity": "common",
+      "growthDays": 10,
+      "stopThreshold": 3,
+      "deadThreshold": 6,
+      "finalStageImage": "assets/images/seeds/herb_basil/stage_4_bloom.png"
+    },
+    {
+      "id": "flower_sunflower",
+      "name": "向日葵",
+      "category": "flower",
+      "rarity": "common",
+      "growthDays": 14,
+      "stopThreshold": 3,
+      "deadThreshold": 6,
+      "finalStageImage": "assets/images/seeds/flower_sunflower/stage_4_bloom.png"
+    },
+    {
+      "id": "flower_rose",
+      "name": "蔷薇玫瑰",
+      "category": "flower",
+      "rarity": "elegant",
+      "growthDays": 45,
+      "stopThreshold": 4,
+      "deadThreshold": 8,
+      "finalStageImage": "assets/images/seeds/flower_rose/stage_4_bloom.png"
+    },
+    {
+      "id": "fruit_strawberry",
+      "name": "奶油草莓",
+      "category": "fruit_vegetable",
+      "rarity": "elegant",
+      "growthDays": 40,
+      "stopThreshold": 4,
+      "deadThreshold": 8,
+      "finalStageImage": "assets/images/seeds/fruit_strawberry/stage_4_bloom.png"
+    },
+    {
+      "id": "tree_cherry",
+      "name": "樱花树",
+      "category": "tree",
+      "rarity": "rare",
+      "growthDays": 90,
+      "stopThreshold": 5,
+      "deadThreshold": 10,
+      "finalStageImage": "assets/images/seeds/tree_cherry/stage_4_bloom.png"
+    },
+    {
+      "id": "fantasy_moon_flower",
+      "name": "月见幻兰",
+      "category": "fantasy",
+      "rarity": "epic",
+      "growthDays": 150,
+      "stopThreshold": 6,
+      "deadThreshold": 12,
+      "finalStageImage": "assets/images/seeds/fantasy_moon_flower/stage_4_bloom.png"
+    }
+  ]
+}
